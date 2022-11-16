@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@500&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@500&family=Quicksand:wght@700&family=Rubik:wght@500&display=swap');
+
+
+.navbar nav {
+  font-family: 'Poppins';
+}
+
+.panel-content {
+  width: 100%;
+  height: 100%;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+}
+
+.text-title {
+  font-size: 5em;
+  font-family: 'Quicksand';
+}
+
+.text-content {
+  font-size: 1.2em;
+  font-family: 'Poppins';
+}
+
+.nav-satu {
+  margin: 15px;
+}
+
+.about {
+  width: 100vw;
+  background-color: #FCFDF2;
+  font-family: 'Quicksand';
+  display: flex;
+  align-items: center;
+}
+
+.text-about {
+  font-size: 2em;
+}
+
+.about img {
+  width: 300px;
+  transition: 0.5s;
+}
+
+.about .about-img:hover img {
+  transform: rotate(30deg);
+}
+
+.nama-saya {
+  font-family: 'Quicksand';
+}
+
+.about h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #4e4039;
+  font-family: 'Poppins';
+}
+
+.about h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: #7a6960;
+}
+
+.about i {
+  font-size: 48px;
+  margin-top: 15px;
+  color: #f39e7a;
+}
+
+.about p {
+  font-size: 15px;
+  color: #5a6570;
+}
+
+.portfolio {
+  width: 100vw;
+  background-color: #FFF;
+  font-family: 'Poppins';
+}
+
+.portfolio h3 {
+  font-family: 'Poppins';
+}
+
+.card .card-body:hover img {
+  transform: scale(1.1);
+}
+
+.card .card-body img {
+  object-fit: cover;
+  transition: 1.5s;
+}
+
+.text-content-project {
+  margin-top: 2rem;
+}
+
+.carousel {
+  width: 55rem
+}
+
+.skills {
+  background: #FCFDF2;
+  width: 100%;
+}
+
+.skills h2 {
+  font-family: 'Poppins';
+}
+
+
+.text-center {
+  width: 25rem;
+}
+
+.skills .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
+  border-bottom: 3px solid #fff;
+}
+
+.skills .icon-box:hover {
+  transform: translateY(-20px);
+  border-color: #ef7f4d;
+}
+
+.skills .icon i {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: #ef7f4d;
+}
+
+.skills .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.skills .title a {
+  color: orange;
+  text-decoration: none;
+}
+
+.skills .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+.experience {
+  width: 100vw;
+  background: #fff;
+}
+
+.experience h2 {
+  font-family: 'Poppins';
+}
+
+
+.experience .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #222222;
+}
+
+.experience .content .count-box {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.experience .content .count-box i {
+  display: block;
+  font-size: 36px;
+  color: #3498db;
+  float: left;
+  line-height: 0;
+}
+
+.experience .content .count-box span {
+  font-size: 36px;
+  line-height: 30px;
+  display: block;
+  font-weight: 700;
+  color: #222222;
+  margin-left: 50px;
+}
+
+.experience .content .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 50px;
+  font-family: 'Poppins';
+  font-size: 14px;
+  color: #484848;
+}
+
+.experience .content .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #484848;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.experience .content .count-box a:hover {
+  color: #6f6f6f;
+  
+}
+
+.contact {
+  width: 100%;
+  background: #FCFDF2;
+  font-family: 'Quicksand';
+}
+
+.contact h2 {
+  font-family: 'Poppins';
+}
+
+.social-links a {
+  color: black;
+  padding-top: 40px;
+}
+
+footer{
+  background: #222;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  font-family: 'Quicksand';
+}
+
+.copyright a{
+  text-decoration: none;
+  color: khaki;
+}
+
+@media (max-width: 1024px) {
+  .experience .image {
+    text-align: center;
+  }
+
+  .experience .image img {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 667px) {
+  .experience .image img {
+    max-width: 100%;
+  }
+}
