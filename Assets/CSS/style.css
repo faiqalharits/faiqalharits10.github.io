@@ -11,6 +11,28 @@
   height: 100%;
 }
 
+.nav-first a:hover {
+  color: #6885a2;
+}
+
+.contactt .nav-link {
+  list-style: none;
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+.contactt .nav-link li a {
+  transition: 0.5s;
+}
+
+.contactt a:hover {
+  color: white;
+}
+
 .hero {
   width: 100vw;
   height: 100vh;
@@ -221,7 +243,7 @@
 
 .experience .content .count-box a:hover {
   color: #6f6f6f;
-  
+
 }
 
 .contact {
@@ -239,23 +261,85 @@
   padding-top: 40px;
 }
 
-footer{
-  background: #222;
-  width: 100%;
-  height: 100px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  padding-top: 20px;
-  color: #fff;
-  font-family: 'Quicksand';
-}
 
-.copyright a{
+.copyright a {
   text-decoration: none;
   color: khaki;
 }
+
+footer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  background: #222;
+  padding: 40px 0;
+}
+
+footer .social {
+  text-align: center;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+footer .social a {
+  font-size: 24px;
+  color: inherit;
+  border: 2px solid rgb(233, 220, 220);
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+}
+
+footer .social a:hover {
+  opacity: 0.9;
+}
+
+footer ul {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+footer ul li a {
+  color: #979ea5;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+
+}
+
+footer ul li a:hover {
+  opacity: 1;
+  color: #fff;
+  transition: 1.5s;
+}
+
+footer .copyright {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(167, 152, 152);
+}
+
+footer .spann {
+  color: #ef7f4d;
+}
+
 
 @media (max-width: 1024px) {
   .experience .image {
